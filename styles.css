@@ -121,8 +121,8 @@ body{
         font-size: 30px !important;
     }
     .logo-modal{
-        max-width: 230px !important;
-        max-height: 200px !important;
+        max-width: 130px !important;
+        max-height: 100px !important;
     }
     h1{
         font-size: 29px !important;
@@ -200,7 +200,7 @@ body{
     line-height: 10px !important ;
     }
     p{
-    line-height: 30px !important ;
+    line-height: 25px !important ;
     }
    
  
@@ -340,4 +340,8 @@ p{
         
     }
 }
-
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus{
+    background-color: transparent !important;
+    color: inherit !important;
+}
