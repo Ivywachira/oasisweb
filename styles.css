@@ -1,0 +1,343 @@
+html {
+    scroll-behavior:smooth;
+}
+:root { --nav-offset:70px ; }
+section[id] {
+    scroll-margin-top: var(--nav-offset);
+}
+.logo {
+max-height: 100px;
+height: auto;
+width: auto;
+object-fit: contain;
+}
+.careimage{
+max-height: 300px !important;
+height: auto;
+width: auto;
+object-fit: contain;
+}
+.my-box{
+    height: 300px !important;
+   background-color: white !important; 
+   display: flex;
+   flex-direction: column;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255); 
+}
+.carousel-item{
+   
+    width: 50%;
+    
+}
+.words{
+    background-color: transparent !important;
+    position: absolute;
+    bottom: 0!important;
+    
+    width: 80% !important;
+    max-width: 80% !important;
+    height: 300px;
+    
+
+}
+
+body{
+    padding-top: 120px;
+    
+}
+
+.custom-carousel-img{
+    width: 90%;
+    max-width: 80%; /* 600px */
+    margin: 0 auto;
+    border-radius: 40px;
+    object-fit: cover;
+    height: 300px !important;
+}
+.carousel-caption{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+ h3{
+    color: rgb(255, 174, 0);
+}
+.wording{
+    background-color: rgb(0, 0, 0, 0.7);
+    color: white;
+    position: absolute;
+    top: 0;
+    margin-left: 5% !important;
+    
+    border-radius: 40px;
+    /*font-size: clamp(1rem, 2vw, 2rem); */
+    background-size: cover;
+}
+.w-90{
+    width: 90% !important;
+}
+.h-100{
+    height: 100% !important;
+}
+.h-sm-300{
+    height: 400px !important;
+}
+@media (max-width: 576px ){
+    .btn-primary{
+       padding: 0.5rem 0.7rem !important; 
+        font-size: 1rem; 
+        
+    }
+    .boxpic{
+        max-height: 350px !important;
+    }
+  
+    .box{
+    background-color: transparent;
+    height: 650px ;
+    max-height: 650px;
+    }
+    .boxword{
+    max-height: 550px !important ;
+    }
+     .boxword2{
+    max-height: 350px !important ;
+    }
+    .boxword3{
+        max-height: 400px !important;
+    }
+    .boxword4{
+      max-height: 500px !important;  
+    }
+    .my-profile{
+    background-color: red;
+    height: 650px ;
+    max-height: 650px;   
+    }
+    .my-list{
+        font-size: 30px !important;
+    }
+    .logo-modal{
+        max-width: 230px !important;
+        max-height: 200px !important;
+    }
+    h1{
+        font-size: 29px !important;
+        letter-spacing: 1px !important;
+        line-height: 3 !important;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .words{
+        position: absolute !important;
+        bottom: 10 !important;
+        line-height: 2 !important;
+    }
+
+
+    .modal-list{
+    line-height: 28px !important ;
+}
+}
+@media (min-width: 768px ){
+    .h-md-400 { height: 400px !important;}
+    .btn-primary{
+     /*  padding: 0.5rem 1rem !important; */
+        font-size: 1rem; 
+    }
+    .box{
+    background-color: transparent;
+    height: 400px ;
+    max-height: 400px;
+    }
+    .my-profile{
+    height: 500px !important ;
+    max-height: 500px !important ; 
+    }
+    .my-list{
+        font-size: 30px !important;
+    }
+    .logo-modal{
+        max-width: 30px !important;
+        max-height: 15px !important;
+    }
+    h1{
+        font-size: 65px !important;
+    }
+ 
+
+}
+@media (min-width: 992px ) {
+    .h-lg-500 {height: 500px !important; }
+    .btn-primary{
+      /*  padding: 0.5rem 1rem; */
+        font-size: 1rem; 
+    }
+    .box{
+    background-color: transparent;
+    height: 400px ;
+    max-height: 400px;
+    }
+    .my-profile{
+    height: 600px !important ;
+    max-height: 600px !important ; 
+    }
+    .my-list{
+        font-size: 30px !important;
+    }
+    .logo-modal{
+        max-width: 210px !important;
+        max-height: 130px !important;
+    }
+    h1{
+        font-size: 70px !important;
+    }
+    .modal-list{
+    line-height: 10px !important ;
+    }
+    p{
+    line-height: 30px !important ;
+    }
+   
+ 
+   
+}
+.responsive-text{
+    white-space: nowrap ;
+    position: absolute;
+    left: 40 !important;
+    bottom: 30 !important;
+   
+   
+}
+
+.btn-primary{
+    white-space: nowrap;
+    border-radius: 15px !important;
+}
+.modal-content{
+    background-color: #0d6efd !important;
+    max-width: 100% !important;
+    overflow-wrap: break-word !important;
+}
+.list-group{
+    
+    list-style: none !important;
+    padding: 0;
+    margin: 0;
+}
+.list-group-item{
+    background-color: #0d6efd  !important;
+    transition: background 0.3s;
+    border: none !important;
+}
+.modal-body{
+    background-color: transparent !important;
+}
+.modal-header{
+    border: none !important;
+}
+.modal.left .modal-dialog{
+    
+    max-width: 80% !important;
+    
+    transform: none;
+}
+.modal.left .modal-content{
+    height: 100%;
+    border-radius: 0;
+   
+}
+.wide-modal .modal-content{
+    max-width: 80% !important;
+}
+li{
+    list-style-type: none !important;
+}
+a{
+    text-decoration: none !important;
+}
+.wide-modal{
+   
+    max-width: 80% !important;
+    margin: 0 !important;
+}
+p{
+    color: #ffffff !important;
+    letter-spacing: 1px !important;
+}
+.bi-size{
+    font-size: 40px !important;
+    color: #0d6efd !important;  
+}
+.ins-size{
+   font-size: 40px !important; 
+   color: #E1306c;
+}
+.arrow-size{
+   font-size: 25px !important;
+   color: #ffae00;    
+}
+.icon-header{
+    color: rgb(0, 0, 0) !important;
+    text-align: left !important;
+}
+.top-section{
+    flex: 0 0 30%;
+  /*  background-color: rgb(0, 0, 0, 0.8); */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: none !important;
+}
+.bottom-section{
+    flex: 1;
+    background-color: #0d6efd !important;
+    display: flex;
+    justify-content: center;
+}
+.carousel-indicators{
+    bottom: 0 !important;
+    margin-bottom: 0 !important;
+    z-index: 15 !important;
+    list-style: none;
+    position: absolute !important;
+}
+.dropdown-menu{
+    background-color: #0d6efd !important;
+   
+}
+.btn-secondary{
+    background-color: #0d6efd !important; 
+    border: none !important;   
+}
+.my-left{
+    background-color: transparent !important ;  
+}
+.my-right{
+    background-color: #0d6efd !important ;
+}
+.move-up{
+    position: relative;
+    transform: translateY(50px);
+    animation: slideUp 1.5s ease-out forwards;
+  
+}
+@keyframes slideUp{
+    0% {
+        transform: translateY(50px);
+        
+    }
+    60% {
+        transform: translateY(-8px) ;
+    }
+    100% {
+        transform: translateY(0);
+        
+    }
+}
+

@@ -1,0 +1,601 @@
+<DOCTYPE! html>
+<html>
+<head>
+
+    <meta charset="=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="styles.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="background-color: rgb(255, 255, 255);">
+
+   <nav class="navbar navbar-expand-lg  py-0 fixed-top" style="height: 110px;">
+    <div class="container-fluid d-flex justify-content-between ">
+        
+            <div class="d-flex align-items-center ms-3">
+                <button type="button" class="btn btn-primary  me-2 "
+                 data-bs-toggle="modal"
+                 data-bs-target="#navModal">
+                   <i class="bi bi-list my-list"></i>
+                </button>
+                
+
+                <img src="bluelogo.jpeg" alt="MyLogo" class="logo ms-4"> 
+            </div>     
+        
+            
+             <button class="btn btn-primary me-3"> DONATE</button>
+                
+           
+    </div>
+
+
+   </nav>
+
+   <!-- MODAL-->
+   <div class="modal fade left" id="navModal" tabindex="-1" aria-labelledby="navModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-start wide-modal ">
+            <div class="modal-content">
+
+                <!--Modal content:HEADER-->
+                <div class="modal-header">
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close" data-bs-target="#wideModal"></button>
+                </div>
+
+                <!--BODY CONTAINING LINKS-->
+                <div class="modal-body  ">
+                        <div class="container" >
+                            <div class=" mx-auto "   > 
+                                <img src="wvoasislogo.jpeg" class="img-fluid logo-modal d-block m-0 "><br><br>
+                   
+                            </div>
+                        </div>
+
+
+
+                        <ul class="list-group  ">
+                        <li class="list-group-item  "><a href="#homepageCarousel" class="text-decoration-none modal-list" data-scroll-to="#homepageCarousel"  >
+                            <p class="fs-5 fs-md-3 fs-lg-4 home-modal ">Home</p></a></li>
+                        <li class="list-group-item"><a href="#section1" class="text-decoration-none modal-list" data-scroll-to="#section1" >
+                            <p class="fs-5 fs-md-3 fs-lg-4" >Our Services</p></a></li>
+
+                        <li class="dropdown  ">
+                            <a href="#" class=" btn btn-secondary modal-list dropdown-toggle d-flex justify-content-between align-items-center " 
+                             data-bs-toggle="dropdown" id="aboutDropdown" data-bs-display="static" aria-expanded="false">
+                                <p class="fs-5 fs-md-3 fs-lg-4" > About </p>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end position-static">
+                                    <li><a class="dropdown-item modal-list" href="#section2" data-scroll-to="#section2"> <p class="fs-5 fs-md-3 fs-lg-4" >Who we are</p> </a></li>
+                                    <li><a class="dropdown-item modal-list " href="#section3" data-scroll-to="#section3"> <p class="fs-5 fs-md-3 fs-lg-4" >Our Profile</p> </a></li>
+
+                                    <li><a class="dropdown-item modal-list " href="#section4" data-scroll-to="#section4"> <p class="fs-5 fs-md-3 fs-lg-4" >Founders info</p> </a></li>
+                            </ul>
+                        
+                        
+                        
+                        
+                            </li>
+                            <li class="list-group-item"><a href="#section6" class="text-decoration-none modal-list " data-scroll-to="#section4"  ><p class="fs-5 fs-md-3 fs-lg-4" > Contact Us </p> </a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+   </div>
+   
+
+   <div id="homepageCarousel" class="carousel slide position-relative"  data-bs-ride="carousel">
+
+      <!--  <div class="carousel-indicators" >
+            <button type="button" data-bs-target="#homepageCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#homepageCarousel" data-bs-slide-to="1" ></button>
+            <button type="button" data-bs-target="#homepageCarousel" data-bs-slide-to="2" ></button>
+        </div> -->
+    
+        <div class="carousel-inner">
+            <div class="carousel-item active position-relative ">
+                <img src="pic66.png" class=" d-block img-fluid 
+                custom-carousel-img
+                h-sm-300 h-md-400 h-lg-500
+                " >
+                <div class=" wording p-3 overlay
+                 w-90 w-md-50 w-lg-50
+                 h-100 h-md-50 h-lg-50
+                 ">
+
+                <div class="words ">
+
+                    <h1 class=" responsive-text position-absolute 
+                              "
+                            style="color: #ffae00;" >
+
+                Oasis of Hope <br> Homecare. <br>
+                We Restore Hope.
+
+            </h1> 
+
+                </div>
+
+              
+
+                
+                </div>
+            </div>
+            <div class="carousel-item active position-relative">
+
+                <img src="pic2.png" class="d-block  img-fluid 
+                custom-carousel-img
+                h-sm-300 h-md-400 h-lg-500" >
+
+
+                <div class=" wording  p-3 
+                w-90 w-md-50 w-lg-50
+                h-100 h-md-50 h-lg-50
+                ">
+                   
+                    <div class="words  ">
+
+                    <h1 class=" responsive-text position-absolute 
+                              "
+                            style="color: #ffae00;" >
+
+                Care at Home, <br> Comfort for Life </h1> 
+
+                </div>
+
+
+
+
+                </div>
+            </div>
+             <div class="carousel-item active position-relative">
+                <img src="pic8.png" class="d-block  img-fluid 
+                custom-carousel-img
+                h-sm-300 h-md-400 h-lg-500" >
+                <div class=" wording  p-3
+                 w-90 w-md-50 w-lg-50
+                h-100 h-md-50 h-lg-50
+                ">
+                    
+                   
+                    <div class="words  ">
+
+                    <h1 class=" responsive-text position-absolute 
+                             "
+                            style="color: #ffae00;" >
+
+                Trusted Care, <br> Right at your <br> doorstep. </h1> 
+
+                </div>
+
+
+                
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#homepageCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#homepageCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+   </div>
+
+
+   <div class="container">
+        <div class="row mt-4">
+            <div class="col-12 col-md-8 mx-auto" >
+                <h3 style="text-align: center !important;" class="icon-header fs-2 fs-md-3 fs-lg-4 "> Oasis of Hope For Care Homes.</h6>
+                <p class="text-dark ms-4 mt-4 fs-4 fs-md-4 fs-lg-6 " > 
+                   Care you can trust, right when it matters the most.
+                    We provide professional support designed to uphold
+                    dignity, bring peace of mind
+                    to families and promote independence  . <b> Our Services include : </b>
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+   </div>
+
+
+
+
+
+   <!--sections-->
+   <section id="section1" class="container my-5 ">
+    
+   
+    <div class="row g-4 ">
+        <div class="col-12 col-lg-4 mb-4 d-flex">
+            <div class=" card text-white flex-fill my-box shadow move-up ">
+                <div class="top-section card-header ">  
+                    <i class="bi bi-1-circle bi-size ms-5 "></i> 
+                             <span class="icon-header ms-3 fs-4 fs-md-4 fs-lg-5 ">Personal Care   </span>
+                </div>
+                <div class="bottom-section card-body">
+                    <br>
+                    <p class="fs-4 fs-md-4 fs-lg-6"> 
+                       
+                        We help with daily personal needs such as
+                        bathing, dressing and mobility 
+                        support to ensure comfort.
+                        
+
+                    </p>
+                </div>
+               
+
+
+            </div>
+        </div>
+
+
+        <div class="col-12 col-lg-4 mb-4 d-flex">
+            <div class=" card text-white flex-fill my-box shadow move-up ">
+                <div class="top-section card-header ">  
+                    <i class="bi bi-2-circle bi-size ms-5 "></i> 
+                             <span class="icon-header ms-3  fs-4 fs-md-3 fs-lg-4 ">  Medication Support </span>
+                </div>
+                <div class="bottom-section card-body">
+                    <br>
+                    <p class="fs-4 fs-md-4 fs-lg-6" > 
+                       
+                            We assist the elderly with taking
+                        medication on time thus helping manage their health 
+                        conditions safely.
+                        
+
+                    </p>
+                </div>
+               
+
+
+            </div> 
+        </div>
+
+
+
+        <div class="col-12 col-lg-4 mb-4 d-flex">
+            <div class=" card text-white flex-fill my-box shadow move-up ">
+                <div class="top-section card-header ">  
+                            <i class="bi bi-3-circle bi-size ms-5 "></i> 
+                             <span class="icon-header ms-3 fs-4 fs-md-3 fs-lg-4  ">  Meal preparations  </span>
+                </div>
+                <div class="bottom-section card-body">
+                    <br>
+                    <p class="fs-4 fs-md-4 fs-lg-6" > 
+                        
+                            Our Carers prepare balanced meals that suit dietary 
+                            needs and also help with feeding the Client.
+                       
+
+                    </p>
+                </div>
+               
+
+
+            </div>   
+        </div>
+
+
+        <div class="col-12 col-lg-4 mb-4 d-flex">
+            <div class=" card text-white flex-fill my-box shadow move-up">
+                <div class="top-section card-header ">  
+                    <i class="bi bi-4-circle bi-size ms-5"></i> 
+                             <span class="icon-header ms-3 fs-4 fs-md-3 fs-lg-4  "> Companionship  </span>
+                </div>
+                <div class="bottom-section card-body">
+                    <br>
+                    <p class="fs-4 fs-md-4 fs-lg-6" > 
+                        
+                             We provide conversations, emotional support
+                        and social interaction to reduce loneliness
+                        and improve wellbeing.
+
+                       
+                    </p>
+                </div>
+               
+
+
+            </div>  
+        </div>
+
+
+        <div class="col-12 col-lg-4 mb-4 d-flex">
+            <div class=" card text-white flex-fill my-box shadow move-up ">
+                <div class="top-section card-header ">  
+                    <i class="bi bi-5-circle bi-size ms-5 "></i> 
+                             <span class="icon-header ms-3 fs-4 fs-md-3 fs-lg-4  ">  Housekeeping </span>
+                </div>
+                <div class="bottom-section card-body">
+                    <br>
+                    <p class="fs-4 fs-md-4 fs-lg-6" >
+                      
+                                Our Carers do Light cleaning, laundry and 
+                                 keep the environment safe, tidy and comfortable
+                                for the client.
+                        
+
+                    </p>
+                </div>
+               
+
+
+            </div>
+        </div>
+
+
+        <div class="col-12 col-lg-4 mb-4 d-flex">
+            <div class=" card text-white flex-fill my-box shadow move-up ">
+                <div class="top-section card-header ">  
+                    <i class="bi bi-6-circle bi-size ms-5 "></i> 
+                             <span class="icon-header ms-3 fs-4 fs-md-3 fs-lg-4  ">  Transportation </span>
+                </div>
+                <div class="bottom-section card-body">
+                    <br>
+                    <p class="fs-4 fs-md-4 fs-lg-6" > 
+                        
+                                    We Assist with errands, shopping and accompanying clients to 
+                        medical Appointments or social events.
+                        
+
+                    </p>
+                </div>
+               
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    </section>
+
+
+
+
+   <section id="section2" class="container "  >
+   
+
+        <div class="row">
+                <div class="col-12 col-md-8 mx-auto  " >
+                <h3 style="text-align: center !important;" class="icon-header fs-2 fs-md-3 fs-lg-4 ">About Oasis of Hope Homecare.</h6>
+                 </div>
+
+                <div class=" col-12 col-md-6 mt-5">
+                    <div class="box boxpic">
+                        <img src="carer1.jpg" class="img-fluid careimage mt-5 ms-2" >
+
+                    </div>
+                </div>
+
+
+
+
+
+                <div class=" col-12 col-md-6 mt-5 mb-5 mx-auto">
+                    <div class="box boxword">
+                        <h3 style="text-align: center !important;" class="icon-header fs-3 fs-md-3 fs-lg-4 "> Who we are</h6>
+                            <p class="text-dark fs-4 fs-md-4 fs-lg-6 mt-4 ms-3  ">
+                                We are a dedicated home care provider committed to
+                                offering compassionate and reliable support to seniors
+                                and people in need of assistance at home. Our goal
+                                is to bring warmth, care and understanding  into every home 
+                                we serve. We are not just caregivers; we are companions,
+                                advocates and friends, devoted to enriching lives and creating 
+                                an environment where everyone feels valued, understood and safe.
+                            </p>
+
+                    </div>
+                </div>
+        </div>
+        
+    
+
+
+
+</section>
+
+
+   <section id="section3" class="container " >
+
+    <div class="row ">
+        <div class="col-12 col-md-6  mb-3 " >
+          <div class="my-profile my-left d-flex flex-column align-items-center" >
+                <h6 class=" fs-3 fs-md-3 fs-lg-4" style="text-align: center;" > What we Stand For </h6>
+            <i class="bi bi-shield-check fs-2 mt-4 move-up "  > </i>
+            <p class="text-dark fs-3 fs-md-4 fs-lg-6 mt-3 move-up " style="text-align: center !important ;"  > Integrity </p>
+         
+
+            <i class="bi bi-house-heart-fill fs-2 mt-4 move-up " ></i>
+            <p class="text-dark fs-3 fs-md-4 fs-lg-6 mt-3 move-up " style="text-align: center;"  > Compassion </p>
+               
+
+            <i class="bi bi-person-check fs-2 mt-4 move-up"></i>
+            <p class="text-dark fs-3 fs-md-4 fs-lg-6 mt-3 move-up " style="text-align: center;"  > Trust </p>
+               
+
+            <i class="bi bi-people fs-2 mt-4 move-up " > </i>
+            <p class="text-dark fs-3 fs-md-4 fs-lg-6 mt-3 move-up " style="text-align: center;" > Safety </p>
+               
+
+
+            <i class="bi bi-person-badge fs-2 mt-4 move-up " ></i>
+            <p class="text-dark fs-3 fs-md-4 fs-lg-6 mt-3 move-up " style="text-align: center;"  > Professionalism </p>
+               
+
+
+          </div>
+         
+        </div>
+
+
+        <div class="col-12 col-md-6  ">
+            <div class="my-profile my-right" >
+
+                <h6 class="text-white fs-3 fs-md-3 fs-lg-4 pt-5" style="text-align: center;" > Our Mission </h6>
+                <p class=" text-white fs-4 fs-md-4 fs-lg-6 mt-3 ms-2 me-2 mb-5 " style="text-align: center;" >
+                    Our Mission is to deliver high-quality home care that
+                    respects dignity, promotes independence and enhances
+                    the quality of life of every client we serve.
+                </p>
+
+
+                <h6 class=" text-white fs-3 fs-md-3 fs-lg-4 mt-5 pt-5 " style="text-align: center;" > Our Vision </h6>
+                <p class=" text-white fs-4 fs-md-4 fs-lg-6 mt-3 ms-2 me-2 " style="text-align: center;" >
+                    To be the most trusted home care provider, known for setting
+                    the highest standards in personalized care and helping
+                    every individual live life to the fullest.
+
+                </p>
+
+
+            </div>
+        </div>
+    </div>
+
+
+   </section>
+
+
+    <section id="section4" class="container mt-5 " >
+        <div class="row">
+                <div class="col-12 col-md-8 mx-auto  " >
+                <h3 style="text-align: center !important;" class="icon-header fs-2 fs-md-3 fs-lg-4 ">Founders of Oasis of Hope Homecare.</h6>
+                 </div>
+
+                <div class=" col-12 col-md-6  ">
+                    <div class="box boxpic d-flex justify-content-center align-items-center ">
+                        <img src="founders 2.jpg" class="img-fluid careimage mt-3  ms-2" >
+
+                    </div>
+                </div>
+
+
+
+
+
+                <div class=" col-12 col-md-6 mt-5 mb-5 mx-auto">
+                    <div class="box boxword2">
+                       
+                            <p class="text-dark fs-4 fs-md-4 fs-lg-6 mt-4 ms-3  ">
+                                With over <b> 25 years </b> of experience, Our Founders,
+                                Steve K. and Joy K. , founded this service with a simple yet 
+                                powerful goal; to provide compassionate, professional and 
+                                reliable care to those who need it most. " Over the years, we have
+                                witnessed the challenges families face when seeking quality support
+                                for their loved ones and this inspired us to create a service built on 
+                                trust and Respect." 
+                            </p>
+
+                    </div>
+                </div>
+        </div>
+        
+    
+    
+    
+    </section>
+
+
+    <section id="section5" class="container mt-5 " style=" background: rgb(0, 0, 0);">
+    
+
+        <div class="row">
+            <div class=" col-12 col-md-6 mt-5 ">
+                <div class="box boxword3" >
+                <i class=" bi bi-arrow-down-right-circle-fill arrow-size ms-5 " ></i>   <span class="fs-3 fs-md-3 fs-lg-4 text-white mt-4 ms-2 "> Quick Links </span>
+        <ul>
+            <li> <a href="#homepageCarousel" data-scroll-to="#homepageCarousel" >  <p class="text-white fs-5 fs-md-4 fs-lg-6 mt-4 ms-3 "  > Home </p> </a> </li>
+            <li> <a href="#section1" data-scroll-to="#section1"  >  <p class="text-white fs-5 fs-md-4 fs-lg-6  ms-3 "  > Our Services </p> </a> </li>
+            <li> <a href="#section2" data-scroll-to="#section2"  >  <p class="text-white fs-5 fs-md-4 fs-lg-6 ms-3 "> Who we are </p> </a> </li>
+            <li> <a href="#section3" data-scroll-to="#section3"  >  <p class="text-white fs-5 fs-md-4 fs-lg-6  ms-3 "  > Our Profile </p> </a> </li>
+            <li> <a href="#section4" data-scroll-to="#section4"  >  <p class="text-white fs-5 fs-md-4 fs-lg-6  ms-3 "> Founders </p> </a> </li>
+        </ul>
+         <h3 class="fs-3 fs-md-3 fs-lg-4 text-white mt-5 ms-5 mb-3 "  > Social Media </h3>
+    <i class="bi bi-facebook bi-size ms-5 mt-5 " ></i>
+    <i class="bi bi-instagram ins-size ms-3 mt-5"></i>
+                </div>
+
+            </div>
+
+
+            <div class=" col-12 col-md-6 mt-5 mb-5 mx-auto">
+                <div class="box boxword4 " >
+    <i class=" bi bi-arrow-down-right-circle-fill arrow-size ms-5 " ></i><span class="fs-3 fs-md-3 fs-lg-4 text-white mt-5 ms-2 "> Contact Us </span>
+    <ul>
+        <li> <p class="text-white fs-5 fs-md-4 fs-lg-6 mt-4 ms-3 " > Email </p> </li>
+        <li> <p class="text-white fs-5 fs-md-4 fs-lg-6  ms-3 " > Phone number 1</p> </li>
+        <li> <p class="text-white fs-5 fs-md-4 fs-lg-6 ms-3 " > Phone number 2 </p> </li>
+        <li> <p class="text-white fs-5 fs-md-4 fs-lg-6  ms-3 " >  Address </p> </li>
+        <li> <p class="text-white fs-5 fs-md-4 fs-lg-6 mt-2 ms-3 " > Working hours </p> </li>
+        <li>  <p class="text-white fs-5 fs-md-4 fs-lg-6  ms-3 " > Monday - Friday 9AM to 5PM </p> </li>
+    </ul>
+   
+
+    <footer class=" text-white fs-5 fs-md-4 fs-lg-6 mt-5 ms-5 me-2 " >
+       &copy; 2025 Oasis of Hope HomeCare. All rights reserved.
+        <p class="text-white fs-5 fs-md-4 fs-lg-6   "  > Website by: CrownTech Solutions</p>
+    </footer>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+ 
+    </section>
+
+    <script>
+        window.addEventListener("load", () => {
+            const elements = document.querySelectorAll(".move-up");
+            elements.forEach((el, index ) => {
+                el.style.animationDelay = (index * 0.5) + "s";
+            });
+        } );
+    </script>
+
+
+   <script>
+
+    document.querySelectorAll('[data-scroll-to]').forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetSel = this.getAttribute('data-scroll-to');
+            const target = document.querySelector(targetSel);
+            if (!target) return;
+
+            const modalEl = document.getElementById('navModal');
+            const modal = bootstrap.Modal.getInstance(modalEl);
+            const getOffset = () => {
+                return (document.querySelector('.navbar.fixed-top')?.offsetHeight || 0); 
+            };
+            const onHidden = () => {
+              const y = target.getBoundingClientRect().top + window.pageYOffset - getOffset();
+              window.scrollTo({top: y, behavior: 'smooth'});
+              modalEl.removeEventListener('hidden.bs.modal', onHidden);
+            };
+
+            modalEl.addEventListener('hidden.bs.modal', onHidden, { once: true});
+            modal.hide();
+        });
+    });
+
+   </script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js" > </script>
+</body>
+
+</html>
